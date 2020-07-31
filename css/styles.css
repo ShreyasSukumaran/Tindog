@@ -8,6 +8,15 @@ html {
   padding: 3% 15%;
 }
 
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* ------------------------------------------Navigation Bar----------------------------------------------------------- */
 
 .navbar-brand {
@@ -32,11 +41,11 @@ html {
   height: 600px;
 }
 
-#app-button {
+.app-button {
   margin-bottom: 40px;
 }
 
-#iphone-mockup {
+.iphone-mockup {
   display: inline-block;
   position: relative;
   left: 50px;
@@ -45,13 +54,11 @@ html {
 }
 
 #title {
-  background-color: #ff4c68;
   text-align: left;
   height: 625px;
 }
 
-#slogan {
-  color: white;
+.slogan {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3rem;
@@ -59,7 +66,7 @@ html {
   padding-bottom: 30px;
 }
 
-#playButton {
+.playButton {
   position: relative;
   left: 10px;
 }
@@ -68,7 +75,6 @@ html {
 
 #features {
   padding: 50px 180px;
-  background-color: white;
   position: relative;
 }
 
@@ -84,9 +90,9 @@ html {
   font-weight: 500;
 }
 
-#fas1,
-#fas2,
-#fas3 {
+.fas1,
+.fas2,
+.fas3 {
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -129,14 +135,12 @@ html {
 }
 
 .comment {
-  color: #fff;
   font-weight: 800;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 .empasize {
-  color: rgb(236, 236, 236);
   font-weight: 600;
 }
 
@@ -187,7 +191,6 @@ html {
 }
 
 .find {
-  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3rem;
@@ -233,7 +236,7 @@ html {
     height: 10%;
   }
 
-  #iphone-mockup {
+  .iphone-mockup {
     position: relative;
     left: 1%;
     width: auto;
@@ -247,7 +250,6 @@ html {
   }
 
   .find {
-    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 2.5rem;
@@ -272,23 +274,21 @@ html {
     text-align: center;
   }
 
-  #iphone-mockup {
+  .iphone-mockup {
     position: relative;
     right: 10px;
   }
 
-  #iButton #playButton {
+  .iButton .playButton {
     padding: 50px;
   }
 
   #features {
     padding: 50px 90px;
-    background-color: white;
     position: relative;
   }
 
-  #slogan {
-    color: white;
+  .slogan {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 3rem;
@@ -297,7 +297,6 @@ html {
   }
 
   .comment {
-    color: #fff;
     font-weight: 800;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -324,7 +323,6 @@ html {
   }
 
   .find {
-    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 1.8rem;
@@ -332,8 +330,8 @@ html {
     padding: 30px 70px;
   }
 
-  #iButton2,
-  #playButton2 {
+  .iButton2,
+  .playButton2 {
     font-size: medium;
   }
 
