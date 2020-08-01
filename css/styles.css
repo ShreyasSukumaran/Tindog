@@ -244,7 +244,7 @@ html {
 
   #cta {
     background-color: #ff4c68;
-    padding: 50px 80px 100px;
+    padding: 50px 25px 350px;
     text-align: center;
     height: 300px;
   }
@@ -256,6 +256,55 @@ html {
     line-height: 1.5;
     padding: 30px 70px;
   }
+  
+  .comment {
+    font-weight: 800;
+    font-size: 2.0rem;
+    line-height: 1.5;
+  }
+
+  .press-images {
+    width: 20%;
+    padding: 20px 20px 50px;
+  }
+
+  .pricing-head {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  #cta {
+    background-color: #ff4c68;
+    padding: 50px 25px 300px;
+    text-align: center;
+  }
+
+  .find {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 30px 70px;
+  }
+
+  .iButton2,
+  .playButton2 {
+    font-size: medium;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 50px 80px;
+  }
+
+  .socialIcon {
+    display: inline-block;
+  }
+
+  .copy {
+    font-size: smaller;
+  }
+
 }
 
 /* ---------------------------------------------------------@media (max-width: 570px)-------------------------------------- */
@@ -318,7 +367,7 @@ html {
 
   #cta {
     background-color: #ff4c68;
-    padding: 50px 50px 100px;
+    padding: 50px 25px 300px;
     text-align: center;
   }
 
